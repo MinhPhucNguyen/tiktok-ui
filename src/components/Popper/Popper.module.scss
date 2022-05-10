@@ -1,0 +1,14 @@
+.wrapper {
+    --border-radius-popper-wrapper: 8px;
+
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 12px;
+    border-radius: var(--border-radius-popper-wrapper);
+    max-height: min((100vh - 96px) - 60px, 734px);
+    min-height: 100px;
+}
+
+.search-result {
+    padding-top: 8px;
+}
